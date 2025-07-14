@@ -113,7 +113,7 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = ReleaseNotes = @'
+        ReleaseNotes = @'
 [1.1.1] - 2025-07-14
 - 1.1.1 is updating release notes. markdown is not supported, so plain text is used.
 
