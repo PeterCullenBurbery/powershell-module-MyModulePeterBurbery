@@ -13,7 +13,7 @@ RootModule = 'MyModulePeterBurbery.psm1'
 # This will be updated to something like RootModule = ...
 
 # Version number of this module.
-ModuleVersion = '1.0.0'
+ModuleVersion = '1.1.0'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -113,7 +113,14 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = 'Initial release: includes time zone resolution, ISO week and ordinal date formatting, File Explorer restart, and PowerShell version capability detection.'
+        ReleaseNotes = @'
+## [1.1.0] - 2025-07-14
+- Add valid GitHub repo URL https://github.com/PeterCullenBurbery/powershell-module-MyModulePeterBurbery
+- Moved from https://github.com/PeterCullenBurbery/powershell-modules
+
+## [1.0.0] - Initial release
+- Includes time zone resolution, ISO week and ordinal date formatting, File Explorer restart, and PowerShell version capability detection.
+'@
 
         # Prerelease string of this module
         # Prerelease = ''
